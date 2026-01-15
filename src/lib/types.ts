@@ -138,3 +138,18 @@ export interface CustomerCreditRecord {
     isBlocked: boolean;
 }
 
+
+export type UserRole =
+    | 'super_admin'
+    | 'sales_manager'
+    | 'senior_sales_rep'
+    | 'finance_user'
+    | 'service_engineer'
+    | 'customer';
+
+export interface User {
+    id: string;
+    email: string;
+    name: string;
+    role: UserRole;
+}

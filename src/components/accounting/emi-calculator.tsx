@@ -84,7 +84,7 @@ export function EmiCalculator() {
                         </div>
                         <div className="p-3 bg-red-50 rounded-lg border border-red-100 flex flex-col justify-center">
                             <span className="text-[10px] text-red-500 font-bold uppercase tracking-wider">Estimated Penalty Interest</span>
-                            <span className="text-lg font-black text-red-700">₹ {Math.round(penaltyInterest).toLocaleString()}</p>
+                            <span className="text-lg font-black text-red-700">₹ {Math.round(penaltyInterest).toLocaleString()}</span>
                             <p className="text-[9px] text-red-600 mt-1">*Simple interest applied on EMI amount</p>
                         </div>
                     </div>
